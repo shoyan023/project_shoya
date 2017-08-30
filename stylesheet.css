@@ -1,0 +1,260 @@
+body, h1, h2, h3, p {
+  margin: 0; }
+
+body {
+  background-color: #f0f5fc;
+  font-family: "Hiragino Kaku Gothic ProN"; }
+
+header {
+  width: 100%;
+  background-color: #2d4961; }
+  header .container {
+    padding: 10px 16px;
+    text-align: center; }
+    header .container .logo {
+      height: 12px;
+      width: 12px;
+      display: inline-block; }
+    header .container h1 {
+      padding-left: 2px;
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 600;
+      color: #ffffff; }
+
+.profile-wrapper {
+  width: 320px;
+  margin: 48px auto 0;
+  padding: 28px 24px;
+  background-color: #ffffff;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
+  text-align: center; }
+  .profile-wrapper img {
+    height: 72px;
+    width: 72px;
+    display: inline-block; }
+  .profile-wrapper .txt-contents {
+    margin-top: 6px; }
+    .profile-wrapper .txt-contents h2 {
+      font-size: 16px;
+      font-weight: 600;
+      color: #2b546a; }
+    .profile-wrapper .txt-contents p {
+      margin-top: 2px;
+      font-size: 12px;
+      color: #2b546a; }
+    .profile-wrapper .txt-contents .btn {
+      height: 36px;
+      width: 160px;
+      margin-top: 16px;
+      display: inline-block;
+      background-color: #ffb520;
+      border-radius: 3px;
+      text-align: center;
+      -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
+      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12); }
+      .profile-wrapper .txt-contents .btn p {
+        padding-top: 6px;
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 11px;
+        color: #ffffff; }
+      .profile-wrapper .txt-contents .btn:hover {
+        background-color: #e49f15; }
+
+.study-wrapper {
+  margin-top: 36px; }
+  .study-wrapper .hedding {
+    padding-left: 10px;
+    text-align: center; }
+    .study-wrapper .hedding img {
+      height: 20px;
+      width: 20px;
+      display: inline-block;
+      vertical-align: middle; }
+    .study-wrapper .hedding h2 {
+      display: inline-block;
+      font-size: 16px;
+      color: #2b546a;
+      vertical-align: middle; }
+  .study-wrapper .lessons {
+    margin-top: 16px;
+    text-align: center; }
+    .study-wrapper .lessons .html {
+      width: 23%;
+      margin: 0 4px;
+      padding: 36px 0 40px;
+      display: inline-block;
+      background-color: #ffffff;
+      border-radius: 3px;
+      -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
+      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12); }
+      .study-wrapper .lessons .html h3 {
+        font-size: 13px; }
+      .study-wrapper .lessons .html img.lesson-img {
+        width: 88px;
+        margin: 10px auto 0;
+        display: block; }
+      .study-wrapper .lessons .html .btn-round {
+        height: 36px;
+        width: 136px;
+        margin-top: 16px;
+        display: inline-block;
+        border-radius: 50px;
+        -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12); }
+        .study-wrapper .lessons .html .btn-round p {
+          padding-top: 9px;
+          display: inline-block;
+          font-size: 11px;
+          color: #ffffff;
+          vertical-align: bottom; }
+        .study-wrapper .lessons .html .btn-round img.pen {
+          width: 12px;
+          padding-left: 2px;
+          display: inline-block;
+          vertical-align: bottom; }
+      .study-wrapper .lessons .html h3 {
+        color: #1bd7cf; }
+      .study-wrapper .lessons .html .btn-round {
+        background-color: #1bd7cf; }
+        .study-wrapper .lessons .html .btn-round:hover {
+          background-color: #0dbdb6; }
+    .study-wrapper .lessons .javascript {
+      width: 23%;
+      margin: 0 4px;
+      padding: 36px 0 40px;
+      display: inline-block;
+      background-color: #ffffff;
+      border-radius: 3px;
+      -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
+      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12); }
+      .study-wrapper .lessons .javascript h3 {
+        font-size: 13px; }
+      .study-wrapper .lessons .javascript img.lesson-img {
+        width: 88px;
+        margin: 10px auto 0;
+        display: block; }
+      .study-wrapper .lessons .javascript .btn-round {
+        height: 36px;
+        width: 136px;
+        margin-top: 16px;
+        display: inline-block;
+        border-radius: 50px;
+        -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12); }
+        .study-wrapper .lessons .javascript .btn-round p {
+          padding-top: 9px;
+          display: inline-block;
+          font-size: 11px;
+          color: #ffffff;
+          vertical-align: bottom; }
+        .study-wrapper .lessons .javascript .btn-round img.pen {
+          width: 12px;
+          padding-left: 2px;
+          display: inline-block;
+          vertical-align: bottom; }
+      .study-wrapper .lessons .javascript h3 {
+        color: #ffe400; }
+      .study-wrapper .lessons .javascript .btn-round {
+        background-color: #ffe400; }
+        .study-wrapper .lessons .javascript .btn-round:hover {
+          background-color: #f1d300; }
+    .study-wrapper .lessons .php {
+      margin-top: 16px;
+      width: 23%;
+      margin: 0 4px;
+      padding: 36px 0 40px;
+      display: inline-block;
+      background-color: #ffffff;
+      border-radius: 3px;
+      -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
+      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12); }
+      .study-wrapper .lessons .php h3 {
+        font-size: 13px; }
+      .study-wrapper .lessons .php img.lesson-img {
+        width: 88px;
+        margin: 10px auto 0;
+        display: block; }
+      .study-wrapper .lessons .php .btn-round {
+        height: 36px;
+        width: 136px;
+        margin-top: 16px;
+        display: inline-block;
+        border-radius: 50px;
+        -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12); }
+        .study-wrapper .lessons .php .btn-round p {
+          padding-top: 9px;
+          display: inline-block;
+          font-size: 11px;
+          color: #ffffff;
+          vertical-align: bottom; }
+        .study-wrapper .lessons .php .btn-round img.pen {
+          width: 12px;
+          padding-left: 2px;
+          display: inline-block;
+          vertical-align: bottom; }
+      .study-wrapper .lessons .php h3 {
+        color: #c9b9ee; }
+      .study-wrapper .lessons .php .btn-round {
+        background-color: #c9b9ee; }
+        .study-wrapper .lessons .php .btn-round:hover {
+          background-color: #ab96dc; }
+    .study-wrapper .lessons .ruby {
+      margin-top: 16px;
+      width: 23%;
+      margin: 0 4px;
+      padding: 36px 0 40px;
+      display: inline-block;
+      background-color: #ffffff;
+      border-radius: 3px;
+      -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
+      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12); }
+      .study-wrapper .lessons .ruby h3 {
+        font-size: 13px; }
+      .study-wrapper .lessons .ruby img.lesson-img {
+        width: 88px;
+        margin: 10px auto 0;
+        display: block; }
+      .study-wrapper .lessons .ruby .btn-round {
+        height: 36px;
+        width: 136px;
+        margin-top: 16px;
+        display: inline-block;
+        border-radius: 50px;
+        -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12); }
+        .study-wrapper .lessons .ruby .btn-round p {
+          padding-top: 9px;
+          display: inline-block;
+          font-size: 11px;
+          color: #ffffff;
+          vertical-align: bottom; }
+        .study-wrapper .lessons .ruby .btn-round img.pen {
+          width: 12px;
+          padding-left: 2px;
+          display: inline-block;
+          vertical-align: bottom; }
+      .study-wrapper .lessons .ruby h3 {
+        color: #ff768a; }
+      .study-wrapper .lessons .ruby .btn-round {
+        background-color: #ff768a; }
+        .study-wrapper .lessons .ruby .btn-round:hover {
+          background-color: #ec445d; }
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  margin-top: 48px;
+  padding: 15px 0;
+  background-color: #ffffff;
+  text-align: center;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12); }
+  footer p {
+    font-size: 11px;
+    color: #2b546a; }
