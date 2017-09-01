@@ -1,9 +1,9 @@
 $white: #ffffff;
-$text-color: #2b546a;
-$back-color: #f0f5fc;
+$text: #2b546a;
+$bg-color: #f0f5fc;
 $ninja-black: #2d4961;
-$btn-color: #ffb520;
-$btn-color-hover: #f0a000;
+$btn: #ffb520;
+$btn-hover: #f0a000;
 $html: #1bd7cf;
 $html-hover: #00c4bb;
 $javascript: #ffe400;
@@ -12,22 +12,18 @@ $php: #c9b9ee;
 $php-hover: #a493cc;
 $ruby: #ff768a;
 $ruby-hover: #f25a71;
-$shadow: 0 1px 6px rgba(0,0,0,0.12), 0 1px 4px rgba(0,0,0,0.12);
+$shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
 
 
 @mixin lesson-card {
 	width: 23%;
 	margin: 0 4px;
-	padding: 36px 0 40px;
+	padding: 40px 0;
 	display: inline-block;
 	background-color: $white;
 	border-radius: 3px;
 	box-shadow: $shadow;
-	h3 {
-		margin: 0;
-		font-size: 13px;
-	}
-	img.lesson-img {
+	img {
 		width: 88px;
 		margin: 10px auto 0;
 		display: block;
@@ -36,38 +32,29 @@ $shadow: 0 1px 6px rgba(0,0,0,0.12), 0 1px 4px rgba(0,0,0,0.12);
 		height: 31px;
 		width: 136px;
 		margin-top: 16px;
+		padding-top: 13px;
 		display: inline-block;
 		border-radius: 50px;
 		box-shadow: $shadow;
-		padding-top: 13px;
 		font-size: 11px;
 		color: $white;
-		text-decoration: none;
-		img.pen {
-			width: 12px;
-			padding-left: 2px;
-			display: inline-block;
-			vertical-align: bottom;
-		}
 	}
 }
 
 
 
 body {
-	background-color: $back-color;
+	background-color: $bg-color;
   	font-family: "Hiragino Kaku Gothic ProN";
-  	margin: 0;
 }
 
 header {
 	width: 100%;
-	margin: 0;
 	background-color: $ninja-black;
 	padding: 10px 16px;
 	display: inline-block;
 	font-size: 14px;
-	font-weight: 600;
+	font-weight: bold;
 	color: $white;
 	text-align: center;
 }
@@ -91,29 +78,28 @@ header {
 		h2 {
 			margin: 0 0 0 2px;
 			font-size: 16px;
-			font-weight: 600;
-			color: $text-color;
+			font-weight: bold;
+			color: $text;
 		}
 		p {
-			margin: 0;
 			font-size: 12px;
-			color: $text-color;
+			color: $text;
 		}
 		a {
-			height: 36px;
+			height: 29px;
 			width: 160px;
 			margin-top: 16px;
+			padding-top: 11px;
 			display: inline-block;
-			background-color: $btn-color;
+			background-color: $btn;
 			border-radius: 3px;
 			font-size: 11px;
 			color: $white;
-			line-height: 3.2;
 			text-align: center;
 			box-shadow: $shadow;
 			text-decoration: none;
 			&:hover {
-				background-color: $btn-color-hover;
+				background-color: $btn-hover;
 			}
 		}
 	}
@@ -125,17 +111,14 @@ header {
 		padding-left: 10px;
 		text-align: center;
 		img {
-			height: 20px;
-			width: 20px;
+			height: 12px;
+			width: 12px;
 			display: inline-block;
-			vertical-align: middle;
 		}
 		h2 {
-			margin: 0;
 			display: inline-block;
 			font-size: 16px;
-			color: $text-color;
-			vertical-align: middle;
+			color: $text;
 		}
 	}
 	.lessons {
@@ -143,7 +126,7 @@ header {
 		text-align: center;
 		.html {
 			@include lesson-card;
-			h3 {
+			h4 {
 				color: $html;
 			}
 			a {
@@ -155,7 +138,7 @@ header {
 		}
 		.javascript {
 			@include lesson-card;
-			h3 {
+			h4 {
 				color: $javascript;
 			}
 			a {
@@ -166,9 +149,8 @@ header {
 			}
 		}
 		.php {
-			margin-top: 16px;
 			@include lesson-card;
-			h3 {
+			h4 {
 				color: $php;
 			}
 			a {
@@ -179,9 +161,8 @@ header {
 			}
 		}
 		.ruby {
-			margin-top: 16px;
 			@include lesson-card;
-			h3 {
+			h4 {
 				color: $ruby;
 			}
 			a {
@@ -204,5 +185,5 @@ footer {
 	text-align: center;
 	box-shadow: $shadow;
 	font-size: 11px;
-	color: $text-color;
+	color: $text;
 }
