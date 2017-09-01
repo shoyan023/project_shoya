@@ -1,6 +1,9 @@
 body, h1, h2, h3, p {
   margin: 0; }
 
+a {
+  text-decoration: none; }
+
 body {
   background-color: #f0f5fc;
   font-family: "Hiragino Kaku Gothic ProN"; }
@@ -45,24 +48,21 @@ header {
       margin-top: 2px;
       font-size: 12px;
       color: #2b546a; }
-    .profile-wrapper .txt-contents .btn {
+    .profile-wrapper .txt-contents a.btn {
       height: 36px;
       width: 160px;
       margin-top: 16px;
       display: inline-block;
       background-color: #ffb520;
       border-radius: 3px;
+      font-size: 11px;
+      color: #ffffff;
+      line-height: 3.2;
       text-align: center;
       -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
       box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12); }
-      .profile-wrapper .txt-contents .btn p {
-        padding-top: 6px;
-        display: inline-block;
-        vertical-align: middle;
-        font-size: 11px;
-        color: #ffffff; }
-      .profile-wrapper .txt-contents .btn:hover {
-        background-color: #e49f15; }
+      .profile-wrapper .txt-contents a.btn:hover {
+        background-color: #f0a000; }
 
 .study-wrapper {
   margin-top: 36px; }
@@ -97,31 +97,28 @@ header {
         width: 88px;
         margin: 10px auto 0;
         display: block; }
-      .study-wrapper .lessons .html .btn-round {
-        height: 36px;
+      .study-wrapper .lessons .html a.btn-round {
+        height: 31px;
         width: 136px;
         margin-top: 16px;
         display: inline-block;
         border-radius: 50px;
         -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
-        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12); }
-        .study-wrapper .lessons .html .btn-round p {
-          padding-top: 9px;
-          display: inline-block;
-          font-size: 11px;
-          color: #ffffff;
-          vertical-align: bottom; }
-        .study-wrapper .lessons .html .btn-round img.pen {
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
+        padding-top: 13px;
+        font-size: 11px;
+        color: #ffffff; }
+        .study-wrapper .lessons .html a.btn-round img.pen {
           width: 12px;
           padding-left: 2px;
           display: inline-block;
           vertical-align: bottom; }
       .study-wrapper .lessons .html h3 {
         color: #1bd7cf; }
-      .study-wrapper .lessons .html .btn-round {
+      .study-wrapper .lessons .html a.btn-round {
         background-color: #1bd7cf; }
-        .study-wrapper .lessons .html .btn-round:hover {
-          background-color: #0dbdb6; }
+        .study-wrapper .lessons .html a.btn-round:hover {
+          background-color: #00c4bb; }
     .study-wrapper .lessons .javascript {
       width: 23%;
       margin: 0 4px;
@@ -137,21 +134,18 @@ header {
         width: 88px;
         margin: 10px auto 0;
         display: block; }
-      .study-wrapper .lessons .javascript .btn-round {
-        height: 36px;
+      .study-wrapper .lessons .javascript a.btn-round {
+        height: 31px;
         width: 136px;
         margin-top: 16px;
         display: inline-block;
         border-radius: 50px;
         -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
-        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12); }
-        .study-wrapper .lessons .javascript .btn-round p {
-          padding-top: 9px;
-          display: inline-block;
-          font-size: 11px;
-          color: #ffffff;
-          vertical-align: bottom; }
-        .study-wrapper .lessons .javascript .btn-round img.pen {
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
+        padding-top: 13px;
+        font-size: 11px;
+        color: #ffffff; }
+        .study-wrapper .lessons .javascript a.btn-round img.pen {
           width: 12px;
           padding-left: 2px;
           display: inline-block;
@@ -161,7 +155,7 @@ header {
       .study-wrapper .lessons .javascript .btn-round {
         background-color: #ffe400; }
         .study-wrapper .lessons .javascript .btn-round:hover {
-          background-color: #f1d300; }
+          background-color: #e8cd00; }
     .study-wrapper .lessons .php {
       margin-top: 16px;
       width: 23%;
@@ -178,21 +172,18 @@ header {
         width: 88px;
         margin: 10px auto 0;
         display: block; }
-      .study-wrapper .lessons .php .btn-round {
-        height: 36px;
+      .study-wrapper .lessons .php a.btn-round {
+        height: 31px;
         width: 136px;
         margin-top: 16px;
         display: inline-block;
         border-radius: 50px;
         -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
-        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12); }
-        .study-wrapper .lessons .php .btn-round p {
-          padding-top: 9px;
-          display: inline-block;
-          font-size: 11px;
-          color: #ffffff;
-          vertical-align: bottom; }
-        .study-wrapper .lessons .php .btn-round img.pen {
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
+        padding-top: 13px;
+        font-size: 11px;
+        color: #ffffff; }
+        .study-wrapper .lessons .php a.btn-round img.pen {
           width: 12px;
           padding-left: 2px;
           display: inline-block;
@@ -202,7 +193,7 @@ header {
       .study-wrapper .lessons .php .btn-round {
         background-color: #c9b9ee; }
         .study-wrapper .lessons .php .btn-round:hover {
-          background-color: #ab96dc; }
+          background-color: #a493cc; }
     .study-wrapper .lessons .ruby {
       margin-top: 16px;
       width: 23%;
@@ -219,21 +210,18 @@ header {
         width: 88px;
         margin: 10px auto 0;
         display: block; }
-      .study-wrapper .lessons .ruby .btn-round {
-        height: 36px;
+      .study-wrapper .lessons .ruby a.btn-round {
+        height: 31px;
         width: 136px;
         margin-top: 16px;
         display: inline-block;
         border-radius: 50px;
         -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
-        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12); }
-        .study-wrapper .lessons .ruby .btn-round p {
-          padding-top: 9px;
-          display: inline-block;
-          font-size: 11px;
-          color: #ffffff;
-          vertical-align: bottom; }
-        .study-wrapper .lessons .ruby .btn-round img.pen {
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
+        padding-top: 13px;
+        font-size: 11px;
+        color: #ffffff; }
+        .study-wrapper .lessons .ruby a.btn-round img.pen {
           width: 12px;
           padding-left: 2px;
           display: inline-block;
@@ -243,13 +231,11 @@ header {
       .study-wrapper .lessons .ruby .btn-round {
         background-color: #ff768a; }
         .study-wrapper .lessons .ruby .btn-round:hover {
-          background-color: #ec445d; }
+          background-color: #f25a71; }
 
 footer {
-  position: absolute;
   width: 100%;
-  bottom: 0;
-  margin-top: 48px;
+  margin-top: 64px;
   padding: 15px 0;
   background-color: #ffffff;
   text-align: center;
