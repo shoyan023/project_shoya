@@ -62,24 +62,14 @@ body {
 
 header {
 	width: 100%;
+	margin: 0;
 	background-color: $ninja-black;
-	.container {
-		padding: 10px 16px;
-		text-align: center;
-		.logo {
-			height: 12px;
-			width: 12px;
-			display: inline-block;
-		}
-		h1 {
-			margin: 0;
-			padding-left: 2px;
-			display: inline-block;
-			font-size: 14px;
-			font-weight: 600;
-			color: $white;
-		}
-	}
+	padding: 10px 16px;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 600;
+	color: $white;
+	text-align: center;
 }
 
 

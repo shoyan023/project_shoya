@@ -5,21 +5,14 @@ body {
 
 header {
   width: 100%;
-  background-color: #2d4961; }
-  header .container {
-    padding: 10px 16px;
-    text-align: center; }
-    header .container .logo {
-      height: 12px;
-      width: 12px;
-      display: inline-block; }
-    header .container h1 {
-      margin: 0;
-      padding-left: 2px;
-      display: inline-block;
-      font-size: 14px;
-      font-weight: 600;
-      color: #ffffff; }
+  margin: 0;
+  background-color: #2d4961;
+  padding: 10px 16px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center; }
 
 .profile-wrapper {
   width: 320px;
