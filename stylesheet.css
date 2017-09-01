@@ -27,18 +27,18 @@ header {
     height: 72px;
     width: 72px;
     display: inline-block; }
-  .profile-wrapper .txt-contents {
+  .profile-wrapper .profile-info {
     margin-top: 6px; }
-    .profile-wrapper .txt-contents h2 {
-      margin: 0;
+    .profile-wrapper .profile-info h2 {
+      margin: 0 0 0 2px;
       font-size: 16px;
       font-weight: 600;
       color: #2b546a; }
-    .profile-wrapper .txt-contents p {
-      margin: 2px 0 0 0;
+    .profile-wrapper .profile-info p {
+      margin: 0;
       font-size: 12px;
       color: #2b546a; }
-    .profile-wrapper .txt-contents a.btn {
+    .profile-wrapper .profile-info a.btn {
       height: 36px;
       width: 160px;
       margin-top: 16px;
@@ -52,20 +52,20 @@ header {
       -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
       box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
       text-decoration: none; }
-      .profile-wrapper .txt-contents a.btn:hover {
+      .profile-wrapper .profile-info a.btn:hover {
         background-color: #f0a000; }
 
 .study-wrapper {
   margin-top: 36px; }
-  .study-wrapper .hedding {
+  .study-wrapper .heading {
     padding-left: 10px;
     text-align: center; }
-    .study-wrapper .hedding img {
+    .study-wrapper .heading img {
       height: 20px;
       width: 20px;
       display: inline-block;
       vertical-align: middle; }
-    .study-wrapper .hedding h2 {
+    .study-wrapper .heading h2 {
       margin: 0;
       display: inline-block;
       font-size: 16px;
