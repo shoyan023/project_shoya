@@ -41,6 +41,7 @@ $shadow: 0 1px 6px rgba(0,0,0,0.12), 0 1px 4px rgba(0,0,0,0.12);
 		padding-top: 13px;
 		font-size: 11px;
 		color: $white;
+		text-decoration: none;
 		img.pen {
 			width: 12px;
 			padding-left: 2px;
@@ -52,10 +53,6 @@ $shadow: 0 1px 6px rgba(0,0,0,0.12), 0 1px 4px rgba(0,0,0,0.12);
 
 body,h1,h2,h3,p {
 	margin: 0;
-}
-
-a {
-	text-decoration: none;
 }
 
 body {
@@ -122,6 +119,7 @@ header {
 			line-height: 3.2;
 			text-align: center;
 			box-shadow: $shadow;
+			text-decoration: none;
 			&:hover {
 				background-color: $btn-color-hover;
 			}
