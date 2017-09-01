@@ -247,7 +247,6 @@ footer {
   background-color: #ffffff;
   text-align: center;
   -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12); }
-  footer p {
-    font-size: 11px;
-    color: #2b546a; }
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
+  font-size: 11px;
+  color: #2b546a; }
