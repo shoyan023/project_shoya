@@ -32,7 +32,7 @@ $shadow: 0 1px 6px rgba(0,0,0,0.12), 0 1px 4px rgba(0,0,0,0.12);
 		margin: 10px auto 0;
 		display: block;
 	}
-	a.btn-round {
+	a {
 		height: 31px;
 		width: 136px;
 		margin-top: 16px;
@@ -146,7 +146,7 @@ header {
 			h3 {
 				color: $html;
 			}
-			a.btn-round {
+			a {
 				background-color: $html;
 				&:hover {
 					background-color: $html-hover;
@@ -158,7 +158,7 @@ header {
 			h3 {
 				color: $javascript;
 			}
-			.btn-round {
+			a {
 				background-color: $javascript;
 				&:hover {
 					background-color: $javascript-hover;
@@ -171,7 +171,7 @@ header {
 			h3 {
 				color: $php;
 			}
-			.btn-round {
+			a {
 				background-color: $php;
 				&:hover {
 					background-color: $php-hover;
@@ -184,7 +184,7 @@ header {
 			h3 {
 				color: $ruby;
 			}
-			.btn-round {
+			a {
 				background-color: $ruby;
 				&:hover {
 					background-color: $ruby-hover;
