@@ -1,9 +1,7 @@
-body, h1, h2, h3, p {
-  margin: 0; }
-
 body {
   background-color: #f0f5fc;
-  font-family: "Hiragino Kaku Gothic ProN"; }
+  font-family: "Hiragino Kaku Gothic ProN";
+  margin: 0; }
 
 header {
   width: 100%;
@@ -16,6 +14,7 @@ header {
       width: 12px;
       display: inline-block; }
     header .container h1 {
+      margin: 0;
       padding-left: 2px;
       display: inline-block;
       font-size: 14px;
@@ -38,11 +37,12 @@ header {
   .profile-wrapper .txt-contents {
     margin-top: 6px; }
     .profile-wrapper .txt-contents h2 {
+      margin: 0;
       font-size: 16px;
       font-weight: 600;
       color: #2b546a; }
     .profile-wrapper .txt-contents p {
-      margin-top: 2px;
+      margin: 2px 0 0 0;
       font-size: 12px;
       color: #2b546a; }
     .profile-wrapper .txt-contents a.btn {
@@ -73,6 +73,7 @@ header {
       display: inline-block;
       vertical-align: middle; }
     .study-wrapper .hedding h2 {
+      margin: 0;
       display: inline-block;
       font-size: 16px;
       color: #2b546a;
@@ -90,6 +91,7 @@ header {
       -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
       box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12); }
       .study-wrapper .lessons .html h3 {
+        margin: 0;
         font-size: 13px; }
       .study-wrapper .lessons .html img.lesson-img {
         width: 88px;
@@ -128,6 +130,7 @@ header {
       -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
       box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12); }
       .study-wrapper .lessons .javascript h3 {
+        margin: 0;
         font-size: 13px; }
       .study-wrapper .lessons .javascript img.lesson-img {
         width: 88px;
@@ -167,6 +170,7 @@ header {
       -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
       box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12); }
       .study-wrapper .lessons .php h3 {
+        margin: 0;
         font-size: 13px; }
       .study-wrapper .lessons .php img.lesson-img {
         width: 88px;
@@ -206,6 +210,7 @@ header {
       -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
       box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12); }
       .study-wrapper .lessons .ruby h3 {
+        margin: 0;
         font-size: 13px; }
       .study-wrapper .lessons .ruby img.lesson-img {
         width: 88px;
@@ -237,7 +242,7 @@ header {
 
 footer {
   width: 100%;
-  margin-top: 64px;
+  margin: 64px 0 0 0;
   padding: 15px 0;
   background-color: #ffffff;
   text-align: center;
