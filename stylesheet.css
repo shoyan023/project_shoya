@@ -42,15 +42,18 @@ header {
       padding-top: 11px;
       display: inline-block;
       background-color: #ffb520;
+      border-bottom: solid 3px #f0a000;
       border-radius: 3px;
       font-size: 11px;
       color: #ffffff;
       text-align: center;
-      -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
-      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
       text-decoration: none; }
       .profile-wrapper .profile-info a:hover {
-        background-color: #f0a000; }
+        margin-top: 13px;
+        border-bottom: solid 6px #f0a000; }
+      .profile-wrapper .profile-info a:active {
+        margin-top: 19px;
+        border-bottom: 0; }
 
 .study-wrapper {
   margin-top: 36px; }

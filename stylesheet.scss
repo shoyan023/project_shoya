@@ -77,14 +77,19 @@ header {
 			padding-top: 11px;
 			display: inline-block;
 			background-color: $btn;
+			border-bottom: solid 3px #f0a000;
 			border-radius: 3px;
 			font-size: 11px;
 			color: $white;
 			text-align: center;
-			box-shadow: $shadow;
 			text-decoration: none;
 			&:hover {
-				background-color: $btn-hover;
+				margin-top: 13px;
+				border-bottom: solid 6px #f0a000;
+			}
+			&:active {
+				margin-top: 19px;
+				border-bottom: 0;
 			}
 		}
 	}
