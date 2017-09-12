@@ -3,30 +3,24 @@
 @mixin lesson-card {
 	width: 23%;
 	margin: 0 4px;
-	padding: 40px 0;
+	padding: 40px 0 64px;
 	display: inline-block;
 	background-color: $white;
 	border-radius: 3px;
 	box-shadow: $shadow;
 	img {
 		width: 88px;
-		margin: 10px auto 0;
+		margin: 8px auto 24px;
 		display: block;
 	}
 	a {
-		height: 31px;
-		width: 136px;
-		margin-top: 16px;
-		padding-top: 13px;
-		display: inline-block;
-		border-radius: 50px;
-		box-shadow: $shadow;
-		font-size: 11px;
-		color: $white;
+		color: $link;
+		font-size: 16px;
+		&:hover {
+			color:$link-hover;
+		}
 	}
 }
-
-
 
 body {
 	background-color: $bg-color;
@@ -36,7 +30,7 @@ body {
 header {
 	width: 100%;
 	background-color: $ninja-black;
-	padding: 10px 16px;
+	padding: 10px 0;
 	display: inline-block;
 	font-size: 14px;
 	font-weight: bold;
@@ -46,26 +40,11 @@ header {
 
 
 .profile-wrapper {
-	width: 320px;
-	margin: 48px auto 0;
-	padding: 28px 24px;
+	width: 100%;
+	padding: 64px 0;
 	background-color: $white;
-	border-radius: 3px;
-	box-shadow: $shadow;
 	text-align: center;
-	img {
-		height: 72px;
-		width: 72px;
-		display: inline-block;
-	}
 	.profile-info {
-		margin-top: 6px;
-		h2 {
-			margin: 0 0 0 2px;
-			font-size: 16px;
-			font-weight: bold;
-			color: $text;
-		}
 		p {
 			font-size: 12px;
 			color: $text;
@@ -98,19 +77,12 @@ header {
 
 .study-wrapper {
 	margin-top: 36px;
-	.heading {
-		padding-left: 10px;
-		text-align: center;
-		img {
-			height: 12px;
-			width: 12px;
-			display: inline-block;
-		}
-		h2 {
-			display: inline-block;
-			font-size: 16px;
-			color: $text;
-		}
+	padding-left: 10px;
+	text-align: center;
+	h2 {
+		display: inline-block;
+		font-size: 16px;
+		color: $text;
 	}
 	.lessons {
 		margin-top: 16px;
@@ -120,47 +92,17 @@ header {
 			h4 {
 				color: $html;
 			}
-			a {
-				background-color: $html;
-				&:hover {
-					background-color: $html-hover;
-				}
-			}
 		}
 		.javascript {
 			@include lesson-card;
 			h4 {
 				color: $javascript;
 			}
-			a {
-				background-color: $javascript;
-				&:hover {
-					background-color: $javascript-hover;
-				}
-			}
-		}
-		.php {
-			@include lesson-card;
-			h4 {
-				color: $php;
-			}
-			a {
-				background-color: $php;
-				&:hover {
-					background-color: $php-hover;
-				}
-			}
 		}
 		.ruby {
 			@include lesson-card;
 			h4 {
 				color: $ruby;
-			}
-			a {
-				background-color: $ruby;
-				&:hover {
-					background-color: $ruby-hover;
-				}
 			}
 		}
 	}

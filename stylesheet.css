@@ -5,7 +5,7 @@ body {
 header {
   width: 100%;
   background-color: #2d4961;
-  padding: 10px 16px;
+  padding: 10px 0;
   display: inline-block;
   font-size: 14px;
   font-weight: bold;
@@ -13,68 +13,52 @@ header {
   text-align: center; }
 
 .profile-wrapper {
-  width: 320px;
-  margin: 48px auto 0;
-  padding: 28px 24px;
+  width: 100%;
+  padding: 64px 0;
   background-color: #ffffff;
-  border-radius: 3px;
-  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
   text-align: center; }
-  .profile-wrapper img {
-    height: 72px;
-    width: 72px;
-    display: inline-block; }
-  .profile-wrapper .profile-info {
-    margin-top: 6px; }
-    .profile-wrapper .profile-info h2 {
-      margin: 0 0 0 2px;
-      font-size: 16px;
-      font-weight: bold;
-      color: #2b546a; }
-    .profile-wrapper .profile-info p {
-      font-size: 12px;
-      color: #2b546a; }
-    .profile-wrapper .profile-info a {
-      height: 29px;
-      width: 160px;
-      margin-top: 16px;
-      padding-top: 11px;
-      display: inline-block;
-      background-color: #ffb520;
-      border-bottom: solid 3px #f0a000;
-      border-radius: 3px;
-      font-size: 11px;
-      color: #ffffff;
-      text-align: center;
-      text-decoration: none; }
-      .profile-wrapper .profile-info a:hover {
-        margin-top: 13px;
-        border-bottom: solid 6px #f0a000; }
-      .profile-wrapper .profile-info a:active {
-        margin-top: 19px;
-        border-bottom: 0; }
+  .profile-wrapper .profile-info p {
+    font-size: 12px;
+    color: #2b546a; }
+  .profile-wrapper .profile-info a {
+    height: 29px;
+    width: 160px;
+    margin-top: 16px;
+    padding-top: 11px;
+    display: inline-block;
+    background-color: #ffb520;
+    border-radius: 3px;
+    font-size: 11px;
+    color: #ffffff;
+    text-align: center;
+    -webkit-box-shadow: 0 3px #f0a000;
+    box-shadow: 0 3px #f0a000;
+    text-decoration: none;
+    position: relative; }
+    .profile-wrapper .profile-info a:hover {
+      top: -2px;
+      -webkit-box-shadow: 0 5px #f0a000;
+      box-shadow: 0 5px #f0a000; }
+    .profile-wrapper .profile-info a:active {
+      top: 2px;
+      -webkit-box-shadow: none;
+      box-shadow: none; }
 
 .study-wrapper {
-  margin-top: 36px; }
-  .study-wrapper .heading {
-    padding-left: 10px;
-    text-align: center; }
-    .study-wrapper .heading img {
-      height: 12px;
-      width: 12px;
-      display: inline-block; }
-    .study-wrapper .heading h2 {
-      display: inline-block;
-      font-size: 16px;
-      color: #2b546a; }
+  margin-top: 36px;
+  padding-left: 10px;
+  text-align: center; }
+  .study-wrapper h2 {
+    display: inline-block;
+    font-size: 16px;
+    color: #2b546a; }
   .study-wrapper .lessons {
     margin-top: 16px;
     text-align: center; }
     .study-wrapper .lessons .html {
       width: 23%;
       margin: 0 4px;
-      padding: 40px 0;
+      padding: 40px 0 64px;
       display: inline-block;
       background-color: #ffffff;
       border-radius: 3px;
@@ -82,29 +66,19 @@ header {
       box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12); }
       .study-wrapper .lessons .html img {
         width: 88px;
-        margin: 10px auto 0;
+        margin: 8px auto 24px;
         display: block; }
       .study-wrapper .lessons .html a {
-        height: 31px;
-        width: 136px;
-        margin-top: 16px;
-        padding-top: 13px;
-        display: inline-block;
-        border-radius: 50px;
-        -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
-        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
-        font-size: 11px;
-        color: #ffffff; }
+        color: #ffb520;
+        font-size: 16px; }
+        .study-wrapper .lessons .html a:hover {
+          color: #bb820f; }
       .study-wrapper .lessons .html h4 {
         color: #1bd7cf; }
-      .study-wrapper .lessons .html a {
-        background-color: #1bd7cf; }
-        .study-wrapper .lessons .html a:hover {
-          background-color: #00c4bb; }
     .study-wrapper .lessons .javascript {
       width: 23%;
       margin: 0 4px;
-      padding: 40px 0;
+      padding: 40px 0 64px;
       display: inline-block;
       background-color: #ffffff;
       border-radius: 3px;
@@ -112,59 +86,19 @@ header {
       box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12); }
       .study-wrapper .lessons .javascript img {
         width: 88px;
-        margin: 10px auto 0;
+        margin: 8px auto 24px;
         display: block; }
       .study-wrapper .lessons .javascript a {
-        height: 31px;
-        width: 136px;
-        margin-top: 16px;
-        padding-top: 13px;
-        display: inline-block;
-        border-radius: 50px;
-        -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
-        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
-        font-size: 11px;
-        color: #ffffff; }
+        color: #ffb520;
+        font-size: 16px; }
+        .study-wrapper .lessons .javascript a:hover {
+          color: #bb820f; }
       .study-wrapper .lessons .javascript h4 {
         color: #ffe400; }
-      .study-wrapper .lessons .javascript a {
-        background-color: #ffe400; }
-        .study-wrapper .lessons .javascript a:hover {
-          background-color: #e8cd00; }
-    .study-wrapper .lessons .php {
-      width: 23%;
-      margin: 0 4px;
-      padding: 40px 0;
-      display: inline-block;
-      background-color: #ffffff;
-      border-radius: 3px;
-      -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
-      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12); }
-      .study-wrapper .lessons .php img {
-        width: 88px;
-        margin: 10px auto 0;
-        display: block; }
-      .study-wrapper .lessons .php a {
-        height: 31px;
-        width: 136px;
-        margin-top: 16px;
-        padding-top: 13px;
-        display: inline-block;
-        border-radius: 50px;
-        -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
-        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
-        font-size: 11px;
-        color: #ffffff; }
-      .study-wrapper .lessons .php h4 {
-        color: #c9b9ee; }
-      .study-wrapper .lessons .php a {
-        background-color: #c9b9ee; }
-        .study-wrapper .lessons .php a:hover {
-          background-color: #a493cc; }
     .study-wrapper .lessons .ruby {
       width: 23%;
       margin: 0 4px;
-      padding: 40px 0;
+      padding: 40px 0 64px;
       display: inline-block;
       background-color: #ffffff;
       border-radius: 3px;
@@ -172,25 +106,15 @@ header {
       box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12); }
       .study-wrapper .lessons .ruby img {
         width: 88px;
-        margin: 10px auto 0;
+        margin: 8px auto 24px;
         display: block; }
       .study-wrapper .lessons .ruby a {
-        height: 31px;
-        width: 136px;
-        margin-top: 16px;
-        padding-top: 13px;
-        display: inline-block;
-        border-radius: 50px;
-        -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
-        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
-        font-size: 11px;
-        color: #ffffff; }
+        color: #ffb520;
+        font-size: 16px; }
+        .study-wrapper .lessons .ruby a:hover {
+          color: #bb820f; }
       .study-wrapper .lessons .ruby h4 {
         color: #ff768a; }
-      .study-wrapper .lessons .ruby a {
-        background-color: #ff768a; }
-        .study-wrapper .lessons .ruby a:hover {
-          background-color: #f25a71; }
 
 footer {
   width: 100%;
